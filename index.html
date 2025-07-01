@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement Deep Study Plan Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Placement Deep Study Plan</h1>
+            <p class="subtitle">June 30 – July 9, 2025</p>
+            <div class="progress-container">
+                <div class="progress-stats">
+                    <div class="stat">
+                        <span id="days-passed">0</span>
+                        <p>Days Passed</p>
+                    </div>
+                    <div class="stat">
+                        <span id="days-remaining">10</span>
+                        <p>Days Remaining</p>
+                    </div>
+                    <div class="stat">
+                        <span id="tasks-completed">0</span>
+                        <p>Tasks Completed</p>
+                    </div>
+                    <div class="stat">
+                        <span id="completion-percentage">0%</span>
+                        <p>Completion</p>
+                    </div>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" id="overall-progress"></div>
+                </div>
+            </div>
+        </header>
+
+        <div class="plan-focus">
+            <h2>🎯 Focus: Deep mastery of DSA + CS fundamentals + Aptitude</h2>
+        </div>
+
+        <main id="schedule-container">
+            <!-- Days will be populated by JavaScript -->
+        </main>
+
+        <div class="legend">
+            <div class="legend-item"><span class="legend-color dsa"></span> DSA</div>
+            <div class="legend-item"><span class="legend-color cs"></span> CS Fundamentals</div>
+            <div class="legend-item"><span class="legend-color aptitude"></span> Aptitude</div>
+            <div class="legend-item"><span class="legend-color other"></span> Other</div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Created by <a href="https://github.com/Mangun10">Manas Gunti</a> | <span id="current-date"></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
